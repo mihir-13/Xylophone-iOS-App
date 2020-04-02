@@ -11,7 +11,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
         super.viewDidLoad()
     }
 
-
+	// WHen any key is pressed
     @IBAction func notePressed(_ sender: UIButton) {
         selectedSoundFileName = soundArray[sender.tag - 1]
         print(selectedSoundFileName)
