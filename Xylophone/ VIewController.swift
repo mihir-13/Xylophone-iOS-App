@@ -27,6 +27,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
         catch {
             print(error)
         }
+		// AUdio player is being played
         audioPlayer.play()
     }
     
