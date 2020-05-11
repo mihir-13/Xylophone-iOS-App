@@ -18,6 +18,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
        playSound()
 
     }
+
+	// Func play sound is executed
     func playSound() {
         let soundUrl = Bundle.main.url(forResource: selectedSoundFileName, withExtension: "wav")
         
