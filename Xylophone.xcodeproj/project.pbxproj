@@ -19,6 +19,9 @@
 		63C019F31C58E4AD001F4187 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EC1C58E4AD001F4187 /* note5.wav */; };
 		63C019F41C58E4AD001F4187 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019ED1C58E4AD001F4187 /* note6.wav */; };
 		63C019F51C58E4AD001F4187 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EE1C58E4AD001F4187 /* note7.wav */; };
+		A132288A24F01DE700B2469B /* ListDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132288924F01DE700B2469B /* ListDetailsViewController.swift */; };
+		A19CC2DD24DEDD810051E673 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CC2DC24DEDD810051E673 /* TestViewController.swift */; };
+		A19CC2E024DEDDD40051E673 /* TestDebBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CC2DF24DEDDD40051E673 /* TestDebBModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		63C019EC1C58E4AD001F4187 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
 		63C019ED1C58E4AD001F4187 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
 		63C019EE1C58E4AD001F4187 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		A132288924F01DE700B2469B /* ListDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailsViewController.swift; sourceTree = "<group>"; };
+		A19CC2DC24DEDD810051E673 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A19CC2DF24DEDDD40051E673 /* TestDebBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDebBModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		63C019C71C58DF76001F4187 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				A19CC2DE24DEDD960051E673 /* Models */,
 				63C019C81C58DF76001F4187 /* AppDelegate.swift */,
 				63C019CA1C58DF76001F4187 /*  VIewController.swift */,
 				63C019CC1C58DF76001F4187 /* Main.storyboard */,
@@ -89,8 +96,18 @@
 				63C019D11C58DF76001F4187 /* LaunchScreen.storyboard */,
 				63C019D41C58DF76001F4187 /* Info.plist */,
 				6385B12D1C68C76C00E57640 /* Sound Files */,
+				A19CC2DC24DEDD810051E673 /* TestViewController.swift */,
+				A132288924F01DE700B2469B /* ListDetailsViewController.swift */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		A19CC2DE24DEDD960051E673 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A19CC2DF24DEDDD40051E673 /* TestDebBModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19CC2E024DEDDD40051E673 /* TestDebBModel.swift in Sources */,
 				63C019CB1C58DF76001F4187 /*  VIewController.swift in Sources */,
+				A19CC2DD24DEDD810051E673 /* TestViewController.swift in Sources */,
 				63C019C91C58DF76001F4187 /* AppDelegate.swift in Sources */,
+				A132288A24F01DE700B2469B /* ListDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +334,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MihirBrahmbhatt.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -330,6 +351,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MihirBrahmbhatt.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;

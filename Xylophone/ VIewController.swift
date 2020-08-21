@@ -14,8 +14,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
 	// WHen any key is pressed
     @IBAction func notePressed(_ sender: UIButton) {
         selectedSoundFileName = soundArray[sender.tag - 1]
-        print(selectedSoundFileName)
+
        playSound()
+
+		// Made changes for Merginf testing
 
     }
 
@@ -27,7 +29,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
             audioPlayer = try AVAudioPlayer(contentsOf: soundUrl!)
         }
         catch {
-            print(error)
+			// Commented for merging testing from Dev to Master
+          //  print(error)
         }
 		// AUdio player is being played
         audioPlayer.play()
