@@ -117,12 +117,42 @@
                     <view key="view" contentMode="scaleToFill" id="PBh-fC-LuK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing from Dev To Master" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDJ-ev-EKc">
+                                <rect key="frame" x="101.5" y="437.5" width="211" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hDJ-ev-EKc" firstAttribute="centerX" secondItem="PBh-fC-LuK" secondAttribute="centerX" id="aUY-Un-mb7"/>
+                            <constraint firstItem="hDJ-ev-EKc" firstAttribute="centerY" secondItem="PBh-fC-LuK" secondAttribute="centerY" id="mo9-zX-239"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ijs-DT-Wud" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="942" y="238"/>
+        </scene>
+        <!--List Details View Controller-->
+        <scene sceneID="dUj-aB-Tbf">
+            <objects>
+                <viewController id="Syb-dP-3Q2" customClass="ListDetailsViewController" customModule="Xylophone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="whe-QG-ORK"/>
+                        <viewControllerLayoutGuide type="bottom" id="arL-1X-wRL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QYe-If-96j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BOu-9R-oLN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1651" y="244"/>
         </scene>
     </scenes>
 </document>
